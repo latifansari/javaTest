@@ -54,11 +54,11 @@ class test2 {
             e.printStackTrace();
         }
         catch(ArrayIndexOutOfBoundsException err){
-            System.out.println("************************************************************************************************");
+            System.out.println("***********************************************************************************************");
             System.out.println("Please give arguments properly.");
             System.out.println("EXAMPLE:\t java test2 <location_of_1st_file> <location_of_2nd_file> <location_of_3rd_file>");
             System.out.println("or you can DRAG AND DROP all three files one by one by giving a space between them....");
-            System.out.println("************************************************************************************************");
+            System.out.println("***********************************************************************************************");
         }
 
     }
