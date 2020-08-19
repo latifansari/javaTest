@@ -43,8 +43,7 @@ class test {
 
                 float DATR = (range + range2 + range3) / 3;
                 String symbol = data[0];
-                //System.out.println("Symbol"+data[0]+range+"\t"+range2+"\t"+range3);
-                //System.out.println("DATR:\t"+(range+range2+range3)/3);
+                
                 pw.println(symbol + "," + range + "," + range2 + "," + range3 + "," + DATR);
 
             }
